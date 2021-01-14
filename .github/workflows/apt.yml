@@ -1,4 +1,4 @@
-name: Apt Pages Build
+name: Debian package
 on: [push]
 jobs:
   repository:
@@ -7,10 +7,15 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@main
+
     - name: Apt PUblish
       uses: Sirherobrine23/apt-pages-repo-actions@main
       with:
+        KEY_ID: '23A794F88D90266DD90A15E3028C3CD59D142124'
         PASS: "${{ secrets.PASSWORD }}"
+        PUB_KEY: 'public.key'
+        PRIV_KEY: 'private.key'
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3.7.0-8
       with:
