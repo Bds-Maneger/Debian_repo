@@ -1,0 +1,26 @@
+Package: bds-files
+Section: bysh23
+Maintainer: Matheus S Queiroga <srherobrine20@gmail.com>
+Architecture: all
+Version: 1.0.0
+Filename: pool/main/b/bds-files/bds-files_1.0.0_all.deb
+Size: 6076856
+MD5sum: bec94a588844385588af1de45e2b0ed3
+SHA1: decea94d6b14cfa0936c61aa54c74ed49c84adf9
+SHA256: c4d006f98b100bb300ba225edce61cf7c132a95106587edca5e8719f80345bac
+SHA512: 12bdbee1c9af6d4201092fc478c8d918b1c19e0022ee7a9a93d4d51fac9d1af1c106143c2062f45881cca47f9b6c4b8856b6ab6235192731cd27bbe8c6f42703
+Description: Files required for non-amd64 platforms
+
+Package: bds-files
+Section: bysh23
+Maintainer: Matheus S Queiroga <srherobrine20@gmail.com>
+Architecture: arm64
+Version: 1.0.0
+Filename: pool/main/b/bds-files/bds-files_1.0.0_arm64.deb
+Size: 6074196
+MD5sum: 5140555e1c0d6cb0d4954a61d12b008c
+SHA1: 2d125b7d096687da155d5aa46b45df9f0e1a6c29
+SHA256: 8adefefde77a0893d3404823acd5206f84975fa8f28e68f9da53c8da9ed4159f
+SHA512: 46655425c072363f163ae89fc6e76d50d70a1fbfa7efc944beb749cc8f1f5dbaeeb5cf6cfcc188c71478704754064ac585ca391b3a3ea3b7c7da1fb4c4a75c84
+Description: Files required for non-amd64 platforms
+
