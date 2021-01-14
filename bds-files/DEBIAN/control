@@ -2,6 +2,6 @@ Package: bds-files
 Section: bysh23
 Version: 1.0.0
 Maintainer: Matheus S Queiroga <srherobrine20@gmail.com>
-Architecture: all
+Architecture: arm64
 Description: Files required for non-amd64 platforms
 
