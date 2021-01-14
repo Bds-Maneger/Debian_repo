@@ -13,6 +13,7 @@ jobs:
       with:
         KEY_ID: '23A794F88D90266DD90A15E3028C3CD59D142124'
         PASS: "${{ secrets.PASSWORD }}"
+        DIST: "Bds Maneger APT"
         PUB_KEY: 'public.key'
         PRIV_KEY: 'private.key'
 
