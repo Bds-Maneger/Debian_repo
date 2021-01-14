@@ -1,0 +1,5 @@
+Origin: . Bds_Maneger_APT
+Label: Bds_Maneger_APT
+Archive: Bds_Maneger_APT
+Architecture: aarch64
+Component: main

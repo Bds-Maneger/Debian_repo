@@ -40,6 +40,6 @@ GA3xtLN7Z8FLc1CxvHw2cSLHkIWoyGju6Z6+k02jt318nDRhnZmu4QxEU0JK9eiS
 zWIVwXq3itau46VcBQggr96F0zd+6I+vE89q5+j3OW5JsDUsvx9+mDlS
 =SyMi
 -----END PGP PUBLIC KEY BLOCK-----'|apt-key add -
-echo "deb https://Bds-Maneger.github.io/Debian_repo pages main" > /etc/apt/sources.list.d/pages.list
+echo "deb https://Bds-Maneger.github.io/Debian_repo Bds_Maneger_APT main" > /etc/apt/sources.list.d/Bds_Maneger_APT.list
 
 apt update
